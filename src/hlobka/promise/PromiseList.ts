@@ -1,4 +1,4 @@
-export default class PromiseList<T> {
+export class PromiseList<T> {
     constructor(protected promises: Array<Promise<T>>) {
     }
 
